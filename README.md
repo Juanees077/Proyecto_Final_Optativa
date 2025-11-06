@@ -17,6 +17,8 @@ La API permite que usuarios con el rol *Customer* eliminen ítems del menú, una
 3. Se ejecuta una petición:
    ```http
    DELETE /menu/{item_id}
+   <img width="921" height="188" alt="image" src="https://github.com/user-attachments/assets/680c0bfc-30ba-4086-877e-dab8bec90884" />
+
    ```
 4. La operación se completa con éxito, eliminando un ítem que el usuario no debería poder borrar.
   
