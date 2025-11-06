@@ -10,18 +10,22 @@ Cada caso se encuentra alineado con las categorías del estándar **OWASP API Se
 ### Vulnerabilidad
 **Tipo:** OWASP API5:2023 – Autorización de Nivel de Función Rota  
 La API permite que usuarios con el rol *Customer* eliminen ítems del menú, una función que debería estar limitada a roles superiores.
+
 <img width="921" height="462" alt="image" src="https://github.com/user-attachments/assets/20bb05e5-6087-41b5-b0a1-dd95c3f7e8c7" />
 
 
 ### Explotación
 1. Se crea un usuario con rol `Customer`.
 2. Se genera un token JWT con sus credenciales.
+
 <img width="921" height="208" alt="image" src="https://github.com/user-attachments/assets/a0ac4ce3-64d5-4266-9169-342c1d51713c" />
+
 3. Se ejecuta una petición:
    ```http
    DELETE /menu/{item_id}
 
    ```
+
    <img width="921" height="199" alt="image" src="https://github.com/user-attachments/assets/1d7a47fc-d76f-4eb4-b07f-ea8023558f63" />
 
 4. La operación se completa con éxito, eliminando un ítem que el usuario no debería poder borrar.
