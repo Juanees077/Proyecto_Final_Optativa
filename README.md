@@ -19,7 +19,7 @@ La API permite que usuarios con el rol *Customer* eliminen ítems del menú, una
    DELETE /menu/{item_id}
    ```
 4. La operación se completa con éxito, eliminando un ítem que el usuario no debería poder borrar.
-   <img width="921" height="188" alt="image" src="https://github.com/user-attachments/assets/e224d839-fdc8-40d3-b316-2a24caa82d33" />
+  
 
 
 ### Código Vulnerable
