@@ -260,3 +260,13 @@ El conjunto de vulnerabilidades detectadas demuestra la relevancia de implementa
 Se recomienda aplicar prácticas de **autenticación sólida**, **autorización basada en roles**, **validación de entradas** y **gestión segura de tokens** para garantizar la integridad y confidencialidad de los sistemas.
 
 ---
+
+
+
+
+Referencias bibliográficas :
+sergiolubo.  python_jwt_example_op [Source code]. GitHub. Retrieved November 6, 2025, from https://github.com/sergiolubo/python_jwt_example_op
+niespihu12.  Damn__Vulnerable_solucion [Source code]. GitHub. Retrieved November 6, 2025, from https://github.com/niespihu12/Damn__Vulnerable_solucion
+OWASP Foundation. (2023). 0x11 - T10 [Web page]. OWASP API Security Project — 2023 edition. Retrieved November 6, 2025, from https://owasp.org/API-Security/editions/2023/en/0x11-t10/
+theowni. (n.d.). codespace-screenshot-2.png [Image]. In Damn-Vulnerable-RESTaurant-API-Game repository. GitHub. Retrieved November 6, 2025, from https://github.com/theowni/Damn-Vulnerable-RESTaurant-API-Game/blob/main/images/codespace-screenshot-2.png
+
