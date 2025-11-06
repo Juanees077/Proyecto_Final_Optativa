@@ -147,6 +147,7 @@ async def update_user_role(
 ### Vulnerabilidad
 **Tipo:** OWASP API7:2023 – Falsificación de Solicitud del Lado del Servidor (SSRF)  
 El endpoint `PUT /menu` permite enviar URLs externas en el campo `image_url`, lo que posibilita que el servidor realice solicitudes internas no autorizadas.
+
 <img width="921" height="231" alt="image" src="https://github.com/user-attachments/assets/be503538-92cd-451c-8624-5d9ea26c990b" />
 
 
